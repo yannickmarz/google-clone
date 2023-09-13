@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -84,4 +86,32 @@ li a, li a:visited, a:visited {
 
 .search-icons {
     opacity: 40%;
+}
+
+/* Search Buttons */
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #f8f9fa;
+    border-style: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    border: 1px solid #cecece;
+}
+
+button:active {
+    border: 1px solid #5482eb;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
