@@ -41,3 +41,47 @@ li a, li a:visited, a:visited {
     display: flex;
     margin-right: 20px;
 }
+
+/* Google Logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 92px;
+    width: auto;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+/* Searchbar */
+
+.searchbar {
+    border: solid rgb(213, 213, 213) 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.magnifying-glass {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.microphone {
+    margin-left: 390px;
+    margin-top: 2px;
+}
+
+.camera {
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.search-icons {
+    opacity: 40%;
+}
