@@ -37,56 +37,106 @@ li a, li a:visited, a:visited, a {
 
 .nav-start {
     display: flex;
-    margin-left: 20px;
+    margin-left: 13px;
 }
 
 .nav-end {
     display: flex;
-    margin-right: 20px;
+    margin-right: 13px;
+}
+
+.nav-grid {
+    opacity: 40%;
+    position: relative;
+    top: -2px;
+}
+
+.nav-grid:hover {
+    opacity: 60%;
+}
+
+.nav-grid:active {
+    opacity: 90%;
+}
+
+.nav-user {
+    opacity: 40%;
+    position: relative;
+    top: -10px;
+}
+
+.nav-user:hover {
+    opacity: 60%;
+}
+
+.nav-user:active {
+    opacity: 90%;
 }
 
 /* Google Logo */
 .logo {
     display: flex;
     justify-content: center;
-    height: 92px;
+    height: 125px;
     width: auto;
     margin-top: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 /* Searchbar */
 
 .searchbar {
     border: solid rgb(213, 213, 213) 1px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     border-radius: 25px;
+    height: 48px;
+    width: 582px;
 }
 
-.search-container {
-    display: flex;
-    justify-content: space-between;
+.search-input {
+    border: none;
+    height: 46px;
+    width: 455px;
+    position: relative;
+    left: 30px;
+    top: -10px;
+    z-index: 1;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
 }
 
 .magnifying-glass {
-    margin-left: 5px;
-    margin-top: 2px;
+    position: relative;
+    top: -41px;
+    left: 4px;
 }
 
 .microphone {
-    margin-left: 390px;
-    margin-top: 2px;
+    position: relative;
+    left: 503px;
+    top: -61px;
 }
 
 .camera {
-    margin-right: 5px;
-    margin-top: 2px;
+    position: relative;
+    left: 537px;
+    top: -81px;
 }
 
 .search-icons {
     opacity: 40%;
+}
+
+.search-icons:hover {
+    opacity: 60%;
+}
+
+.search-icons:active {
+    opacity: 90%;
 }
 
 /* Search Buttons */
