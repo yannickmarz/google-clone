@@ -184,6 +184,12 @@ button:active {
 
 /* Footer */
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 .footer-menu {
     display: flex;
     flex-wrap: wrap;
